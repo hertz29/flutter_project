@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:pie_chart/pie_chart.dart';
 
 class BudgetPieChart extends StatefulWidget {
+
   @override
   BudgetPieChartState createState() => BudgetPieChartState();
 }
@@ -24,16 +25,10 @@ class BudgetPieChartState extends State<BudgetPieChart> {
   @override
   void initState() {
     super.initState();
-    dataMap.putIfAbsent("PG", () => 1);
-    dataMap.putIfAbsent("SG", () => 3);
-    dataMap.putIfAbsent("SF", () => 2);
-    dataMap.putIfAbsent("PF", () => 1);
-    dataMap.putIfAbsent("C", () => 1);
-    dataMap.putIfAbsent("G", () => 0);
-    dataMap.putIfAbsent("F", () => 0);
-    dataMap.putIfAbsent("Util", () => 0);
-    dataMap.putIfAbsent("Free", () => 4);
+     dataMap.putIfAbsent("Free", () => 50000);
   }
+
+
 
   @override
   Widget build(BuildContext context) {

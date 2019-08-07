@@ -1,4 +1,5 @@
 import 'package:flutter/foundation.dart';
+import '../utils/commonFunctions.dart';
 
 class Player{
     final int id;
@@ -18,26 +19,12 @@ class Player{
     String getPlayerPossition(){
         List<String> playerAvailabePositions = [];
         positions.forEach((position){
-            playerAvailabePositions.add(createPositionShortcut(position));
+            playerAvailabePositions.add(CommonFunctions.createPositionShortcut(position));
         });
         return playerAvailabePositions.toString();
     }
 
-    String createPositionShortcut(position){
-       switch(position){
-          
-          case PlayerPosition.PG:
-            return 'PG';
-          case PlayerPosition.SG:
-            return 'SG';
-          case PlayerPosition.SF:
-            return 'SF';
-          case PlayerPosition.PF:
-            return 'PF';
-          case PlayerPosition.C:
-            return 'C';
-        }
-    }
+  
 }
 
 

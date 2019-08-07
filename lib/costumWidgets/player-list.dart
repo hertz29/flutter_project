@@ -11,8 +11,15 @@ class PlayerList extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 300,
-      child: ListView( 
+      height: 500,
+      child: players.isEmpty ?  
+            Column(
+              children: <Widget>[
+                Text('No Players in Your Team'),
+                Image.asset('assets/images/emptyCourt.png'),
+              ],
+            )
+          : ListView( 
               children: players.map((player) {
                 return Container(
                   color: Colors.cyan[300],
