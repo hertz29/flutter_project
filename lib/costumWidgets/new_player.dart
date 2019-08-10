@@ -1,18 +1,19 @@
 import 'package:create_team/modules/player.dart';
 import 'package:flutter/material.dart';
 import '../utils/commonFunctions.dart';
+import './player-list.dart';
 
-class NewPlayer extends StatefulWidget{
+class MyTeam extends StatefulWidget{
 
-  final Function addPlayer;
+  final Function method;
 
-  NewPlayer(this.addPlayer);
+  MyTeam(this.method);
 
   @override
-  _NewPlayerState createState() => _NewPlayerState();
+  _MyTeamState createState() => _MyTeamState();
 }
 
-class _NewPlayerState extends State<NewPlayer> {
+class _MyTeamState extends State<MyTeam> {
   final playerNameConroller = TextEditingController();
   final teamConroller = TextEditingController();
   final priceConroller = TextEditingController();
@@ -20,7 +21,7 @@ class _NewPlayerState extends State<NewPlayer> {
 
 
   void subbmitData(){
-    widget.addPlayer(playerNameConroller.text,teamConroller.text,int.parse(priceConroller.text),selectedPosition);
+    widget.method(playerNameConroller.text,playerNameConroller.text,teamConroller.text,int.parse(priceConroller.text),selectedPosition);
     Navigator.of(context).pop();
   }
 

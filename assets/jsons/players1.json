@@ -1,0 +1,102 @@
+[
+        {
+            "id": 117,
+            "first_name": "Anthony",
+            "last_name": "Davis",
+            "position": "PF",
+            "team": "LAL",
+            "img": "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/davisan02.jpg"
+        },
+        {
+            "id": 118,
+            "first_name": "Joel",
+            "last_name": "Embid",
+            "position": "C",
+            "team": "BKN",
+            "img": "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/embiijo01.jpg"
+        },{
+            "id": 109,
+            "first_name": "Danny",
+            "last_name": "Green",
+            "position": "SG",
+            "team": "LAL",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/greenda02.jpg"
+        },{
+            "id": 110,
+            "first_name": "Demian",
+            "last_name": "Lilard",
+            "position": "PG",
+            "team": "POR",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/lillada01.jpg"
+        },{
+            "id": 111,
+            "first_name": "Nicola",
+            "last_name": "Jokic",
+            "position": "C",
+            "team": "DEN",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/jokicni01.jpg"
+        },{
+            "id": 237,
+            "first_name": "LeBron",
+            "last_name": "James",
+            "position": "PF",
+            "team":"LAL",
+            "img": "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/jamesle01.jpg"
+        },{
+            "id": 230,
+            "first_name": "Steph",
+            "last_name": "Curry",
+            "position": "PG",
+            "team":"GTW",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/curryst01.jpg"
+        },{
+            "id": 238,
+            "first_name": "Kevin",
+            "last_name": "Durant",
+            "position": "SF",
+            "team":"BKN",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/duranke01.jpg"
+        },{
+            "id": 239,
+            "first_name": "Jhon",
+            "last_name": "Wall",
+            "position": "PG",
+            "team":"WAS",
+            "img" : "http://ssref.net/scripts/image_resize.cgi?min=200&url=https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/walljo01.jpg"
+        },{
+            "id": 240,
+            "first_name": "Bredly",
+            "last_name": "Beel",
+            "position": "SG",
+            "team":"WAS",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/bealbr01.jpg"
+        },{
+            "id": 241,
+            "first_name": "Kawai",
+            "last_name": "Lenoard",
+            "position": "SF",
+            "team":"LAC",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/leonaka01.jpg"
+        },{
+            "id": 243,
+            "first_name": "James",
+            "last_name": "Harden",
+            "position": "SG",
+            "team":"HOU",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/hardeja01.jpg"
+        },{
+            "id": 244,
+            "first_name": "Russel",
+            "last_name": "Westbrook",
+            "position": "PG",
+            "team":"HOU",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/westbru01.jpg"
+        },{
+            "id": 245,
+            "first_name": "Ben",
+            "last_name": "Simmons",
+            "position": "PF",
+            "team":"PHI",
+            "img" : "https://d2cwpp38twqe55.cloudfront.net/req/201907151/images/players/simmobe01.jpg"
+        }
+    ]
